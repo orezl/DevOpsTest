@@ -32,4 +32,13 @@
       </plugin>
     </plugins>
   </build>
+    <distributionManagement>
+    <repository>
+      <id>admin</id>
+        <name>Release</name>
+        <url>
+          http://10.0.3.2:8081/repository/Release
+        </url>
+    </repository>
+  </distributionManagement>
 </project>
