@@ -46,9 +46,6 @@
         <url>
           http://10.0.3.2:8081/repository/Snapshot
         </url>
-          <snapshots>
-        <enabled>false</enabled>
-    </snapshots>
     </snapshotRepository>
   </distributionManagement>
 </project>
