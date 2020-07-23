@@ -30,6 +30,18 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-jar-plugin</artifactId>
+	<configuration>
+		<archive>
+			<manifest>
+				<addClasspath>true</addClasspath>
+				<useUniqueVersions>false</useUniqueVersions>
+			</manifest>
+		</archive>
+	</configuration>
+</plugin>
     </plugins>
   </build>
     <distributionManagement>
@@ -46,6 +58,7 @@
         <url>
           http://10.0.3.2:8081/repository/Snapshot
         </url>
+       <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
   </distributionManagement>
 </project>
